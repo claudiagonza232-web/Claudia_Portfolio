@@ -23,6 +23,8 @@
    </nav>  
 </header>
 
+<div class="home-screen">
+
 <section id="home">
     <div class="home-content">
     <p class="welcome-text">WELCOME TO MY PORTFOLIO!</p>
@@ -39,6 +41,9 @@
     </a>
 </div>
 </section>
+
+</div>  
+
 
 <section id="about">
     <h2>About Me</h2>
@@ -73,13 +78,16 @@
 </section>
 
 <section id="projects">
-    <h2>Projects</h2>
-<div class="project-item">
-        <h3>AI-Powered Academic Planning System</h3>
+    <h2>My Projects!</h2>
 
+<div class="projects-carousel">
+
+    <div class="project-slide active">
         <img src="images/Ai-Academic-Planning-System.png"
-             alt="Academic Planning System"
-             width="250">
+             alt="Academic Planning System">
+
+        <div class="project-content">
+         <h3>AI-Powered Academic Planning System</h3>
 
         <p>
            This project is an AI-powered academic planning system to help students plan their academic schedule and find out 
@@ -87,37 +95,67 @@
            to help create functional and non-functional requirements to plan how our project would look like and achieve that 
            final look in the real world. I used Figma to create a demo of what the system would look like.
         </p>
+        <div class="project-tags">
+        <span class="project-tag">
+            System Analysis
+        </span>
+    </div>
+    </div>
     </div>
 
-<div class="project-item">
-        <h3>Saebom High School Student System</h3>
-
+<div class="project-slide">
+        
         <img src="images/Saebom-Highschool-Student-System.png"
-             alt="Saebom High School Student System"
-             width="250">
+             alt="Saebom High School Student System">
 
+        <div class="project-content">
+            <h3>Saembom High School Student System</h3>
         <p>
         Created a student system that adds, drops, lists, and updates students in a database.
         This project was developed using Java and MySQL. I also used CSS to make the interface more visually appealing.
         </p>
+        <div class="project-tags">
+         <span class="project-tag">SQL</span>
+         <span class="project-tag">Java</span>
+         <span class="project-tag">CSS</span>
     </div>
+   </div>
+   </div>
+<div class="project-slide">
+        <img src="images/Smart-parking-home.png"
+             alt="Homepage">
+        <img src="images/Smartpark-Dashboard.png"
+        alt="Dashboard">
 
-<div class="project-item">
+        <div class="project-content">
+
         <h3>Smart Park</h3>
 
-        <img src="images/Smart-parking-home.png"
-             alt="Homepage"
-             width="250">
-        <img src="images/Smartpark-Dashboard.png"
-        alt="Dashboard"
-        width="250">
         <p>
         I collaborated with my software engineering team to create an application to help people on campus to find parking spots quicker.
         My role in this project was a tester. I tested the frontend and backend of the project to help 
         ensure that the project was working properly and that there were no bugs.
         I also designed the login screen for our system. 
         </p>
+        <div class="project-tags">
+        <span class="project-tag">Tester</span>
+        <span class="project-tag">Visuals</span>
     </div>
+    </div>
+    </div>
+</div>
+ <div class="carousel-controls">
+        <button type="button" id="prevProject">
+            &#10094; Previous
+        </button>
+
+        <span id="projectCounter">1 / 3</span>
+
+        <button type="button" id="nextProject">
+            Next &#10095;
+        </button>
+    </div>
+
 </section>
 
 <section id="achievements">
