@@ -51,10 +51,10 @@ nav a:hover{
 }
 #home {
 width: 68%;
-    max-width: 1100px;
-    min-height: 500px;
-    margin: 60px auto 60px 5%;
-    padding: 50px 40px;
+max-width: 1100px;
+min-height: 500px;
+margin: 60px auto 60px 5%;
+padding: 50px 40px;
 
     background-color: rgba(255, 248, 250, 0.90);
 
@@ -116,18 +116,155 @@ width: 68%;
     transform: translateY(-3px);
 }
 
-@media (max-width: 768px) {
-    #home {
-        width: 92%;
-        padding: 35px 20px;
-        min-height: 350px;
-    }
+.home-screen {
+    min-height: calc(100vh - 90px);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 40px 5%;
+}
 
-    #home h2 {
-        font-size: 32px;
-    }
 
-    .home-subtitle {
-        font-size: 16px;
-    }
+#about{
+    width: 80%;
+    max-width: 1050px;
+    margin: 60px auto;
+    padding: 35px;
+
+    background-color: rgba(255,248,250, 0.93);
+    border-radius: 25px;
+
+    box-shadow: 0 5px 18px rgba(120, 60, 80, 0.15);
+}
+#about h2{
+    font-family: Georgia, serif;
+    font-size: 32px;
+    color:#884b61;
+    margin-bottom:25px;
+}
+.about-grid{
+    display:grid;
+    grid-template-columns: 1.3fr 1fr;
+    gap:20px;
+}
+
+
+#experience {
+    width: 80%;
+    max-width: 1050px;
+    margin: 60px auto;
+    padding: 35px;
+
+    background-color: rgba(255, 248, 250, 0.93);
+    border-radius: 25px;
+
+    box-shadow: 0 5px 18px rgba(120, 60, 80, 0.15);
+}
+
+#projects {
+    width: 80%;
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 35px;
+    box-sizing: border-box;
+
+    background-color: rgba(255, 248, 250, 0.93);
+    border-radius: 25px;
+    box-shadow: 0 5px 18px rgba(120, 60, 80, 0.15);
+}
+
+#projects h2 {
+    font-family: Georgia, serif;
+    font-size: 32px;
+    color: #884b61;
+    margin: 0 0 25px;
+}
+
+/* SHOW ONE PROJECT AT A TIME */
+
+.project-slide {
+    display: none;
+    background-color: #f7dbe4;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.project-slide.active {
+    display: block;
+}
+
+/* SCREENSHOT */
+
+.project-slide img {
+    width: 100%;
+    height: 280px;
+    object-fit: contain;
+    background-color: #fff8fa;
+    display: block;
+}
+
+/* DESCRIPTION */
+
+.project-content {
+    padding: 25px;
+}
+
+.project-content h3 {
+    font-family: Georgia, serif;
+    color: #884b61;
+    font-size: 23px;
+    margin: 0 0 12px;
+}
+
+.project-content p {
+    color: #5c4550;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+/* TECHNOLOGY TAGS */
+
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.project-tag {
+    background-color: #fff8fa;
+    color: #9c5069;
+    padding: 7px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* ARROW BUTTONS */
+
+.carousel-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.carousel-controls button {
+    background-color: #b76e88;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.carousel-controls button:hover {
+    background-color: #9c5069;
+}
+
+#projectCounter {
+    color: #884b61;
+    font-weight: bold;
 }
