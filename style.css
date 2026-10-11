@@ -49,3 +49,85 @@ nav a{
 nav a:hover{
     color: #e0789a;
 }
+#home {
+width: 68%;
+    max-width: 1100px;
+    min-height: 500px;
+    margin: 60px auto 60px 5%;
+    padding: 50px 40px;
+
+    background-color: rgba(255, 248, 250, 0.90);
+
+    border-radius: 15% 8% 12% 7% / 12% 15% 9% 14%;
+
+    box-shadow: 0 5px 18px rgba(120, 60, 80, 0.15);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home-content{
+    max-width: 700px;
+    margin: 0 auto;
+}
+.welcome-text{
+    color: #b76e88;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+#home h2{
+    font-family: Georgia, serif;
+    font-size: 45px;
+    color: #884b61;
+    margin:15px 0;
+}
+.home-subtitle {
+    font-size: 19px;
+    color: #9c5069;
+    font-weight: bold;
+}
+
+.home-description {
+    font-size: 16px;
+    color: #5c4550;
+    line-height: 1.8;
+    margin: 20px auto;
+}
+
+.home-button {
+    display: inline-block;
+    background-color: #b76e88;
+    color: white;
+    padding: 13px 28px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: background-color 0.3s,
+                transform 0.3s;
+}
+
+.home-button:hover {
+    background-color: #9c5069;
+    transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+    #home {
+        width: 92%;
+        padding: 35px 20px;
+        min-height: 350px;
+    }
+
+    #home h2 {
+        font-size: 32px;
+    }
+
+    .home-subtitle {
+        font-size: 16px;
+    }
+}
