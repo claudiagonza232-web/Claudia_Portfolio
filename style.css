@@ -9,3 +9,43 @@ body {
     background-attachment: fixed;
     background-color: #f8b6c5;
 }
+
+header {
+    background-color: #fff0f3;
+    padding: 15px 30px;
+    border-bottom: 2px solid #e8a0b0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+nav h1{
+    font-family: Georgia, serif;
+    font-size: 28px;
+    color: #9c5069;
+    margin: 0; 
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: #6b4050;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #e0789a;
+}
