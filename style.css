@@ -1,12 +1,6 @@
-body {
+   body {
     margin: 0;
     font-family: Arial, sans-serif;
-
-    background-image: url("images/Snoopy-background.JPG");
-    background-size: contain;
-    background-position: right bottom;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     background-color: #f8b6c5;
 }
 
@@ -596,4 +590,69 @@ padding: 50px 40px;
     margin-bottom: 0;
 }
 
+.floating-snoopy {
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
 
+    width: 145px;
+    height: auto;
+
+    z-index: 100;
+    pointer-events: none;
+}
+
+/* SNOOPY ON MOBILE PHONES */
+
+@media screen and (max-width: 600px) {
+
+    .floating-snoopy {
+        width: 90px;
+        right: 5px;
+        bottom: 5px;
+    }
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+
+    #home {
+        width: 85%;
+        margin: 40px auto;
+        box-sizing: border-box;
+    }
+
+    #home h2 {
+        font-size: 38px;
+    }
+
+    #about,
+    #experience,
+    #projects,
+    #achievements,
+    #contact {
+        width: 90%;
+        box-sizing: border-box;
+    }
+
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-slide img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+img {
+    max-width: 100%;
+}
