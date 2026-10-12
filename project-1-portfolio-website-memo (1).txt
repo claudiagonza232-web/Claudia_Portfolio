@@ -26,9 +26,9 @@ I will describe myself by describing what I like doing most so far which is deal
 7. What pages will your site include (Home, About, Projects, Contact, etc.)?
 I will Include Home, about, Projects, Achievements and Involvement, and Contact which will include Email, LinkedIn, and GitHub.
 8. What is your career goal or desired role?
-I would love to be a Data Analysis.
+I would love to be a Data Analyst.
 9. What technologies or tools do you have experience with?
-I have experience with Java, MySQL/SQL, Excel, and access, GitHub, Figma, Visual Studios, HTML.
+I have experience with Java, MySQL/SQL, Excel, and Microsoft Access, GitHub, Figma, Visual Studios Code, HTML.
 10. What achievements or experiences are worth highlighting?
 My skyline achievement is important to me. Making the Dean's and Presidents list and just being involved in Swic here at Farmingdale would be good to add in this portfolio.
 11. What call-to-action should visitors take (contact you, view projects, download resume)?
@@ -59,9 +59,9 @@ I will use large headings, different font sizes, and separate cards to help visi
 9. How will consistency be maintained across pages?
 I will use the same pink color scheme, fonts, buttons, and rounded cards in my website.
 10. How will accessibility be considered (contrast, font size, readability)?
-I will use black lettering on light pink backgrounds to make the information easier to read. I will also make sure the font sizes are readable, the labels are clear and the images match up with the paragraph.
+I will use dark-colored lettering on light pink backgrounds to make the information easier to read. I will also make sure the font sizes are readable, the labels are clear and the images match up with the paragraph.
 11. Will you use icons, images, or illustrations? Why?
-I will be included my images of my projects, a track photo, and a snoopy transparent picture to appear on the website.
+I will be included my images of my projects, a track and field photo of myself, and a snoopy transparent picture to appear on the website.
 12. What portfolio websites inspired your design?
 I looked at creative portfolio designs that uses rounded cards and simple navigation. I liked how these designs could look personal while still being organized and professional. I used those ideas to create my own pink-themed portfolio.
 --------------------------------------------------
@@ -70,9 +70,9 @@ PART 3: INTERACTIVITY (Answer ALL questions)
 1. What interactive elements will your site include (navigation menus, buttons, forms)?
 My website will include a navigation menu, buttons, and a project carousel. The navigation menu will allow visitors to move between the different sections, while the carousel buttons will let them view my projects.
 2. Will your site include a contact form? How will it work?
-No I will add buttons with all my contact information's that display my email, GitHub, and LinkdIn. When people press these buttons they will be taken to the email Linkin or my GitHub.
+No I will add buttons with all my contact information that display my email, GitHub, and LinkedIn. When people press these buttons they will be taken to the email LinkedIn or my GitHub.
 3. What JavaScript features will you implement?
-I will use JavaScript to create a project carousel. Visitors will be able to click the Previous and Next buttons to switch between projects. The carousel will also display a counter showing which project they are viewing and how many projects there is.
+I will use JavaScript to create a project carousel. Visitors will be able to click the Previous and Next buttons to switch between projects. The carousel will also display a counter showing which project they are viewing and how many projects there are.
 4. How will users receive feedback from interactions?
 The Users will receive feedback based on the button they pressed. For example when they click next in the carousel it will display a different project.
 5. How does interactivity improve the user experience?
