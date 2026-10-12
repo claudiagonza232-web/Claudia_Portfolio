@@ -161,6 +161,64 @@ padding: 50px 40px;
     box-shadow: 0 5px 18px rgba(120, 60, 80, 0.15);
 }
 
+/* EXPERIENCE SECTION HEADING */
+
+#experience h2 {
+    font-family: Georgia, serif;
+    font-size: 32px;
+    color: #884b61;
+    margin: 0 0 30px;
+}
+
+
+/* PINK JOB CARDS */
+
+.experience-item {
+    background-color: #f7dbe4;
+    padding: 25px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+/* COMPANY NAMES */
+
+.experience-item h3 {
+    font-family: Georgia, serif;
+    font-size: 22px;
+    color: #884b61;
+    margin: 0 0 8px;
+}
+
+/* JOB TITLES */
+
+.experience-item h4 {
+    font-size: 17px;
+    color: #9c5069;
+    margin: 0 0 8px;
+}
+
+/* EMPLOYMENT DATES */
+
+.experience-item .date {
+    font-size: 14px;
+    color: #9c5069;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* JOB DESCRIPTIONS */
+
+.experience-item p {
+    font-size: 15px;
+    color: #5c4550;
+    line-height: 1.7;
+}
+
+.experience-item:last-child {
+    margin-bottom: 0;
+}
+
 #projects {
     width: 80%;
     max-width: 900px;
