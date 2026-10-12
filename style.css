@@ -52,7 +52,7 @@ nav a:hover{
 #home {
 width: 68%;
 max-width: 1100px;
-min-height: 500px;
+min-height: 350px;
 margin: 60px auto 60px 5%;
 padding: 50px 40px;
 
@@ -116,36 +116,86 @@ padding: 50px 40px;
     transform: translateY(-3px);
 }
 
-.home-screen {
-    min-height: calc(100vh - 90px);
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 40px 5%;
-}
-
-
-#about{
+#about {
     width: 80%;
     max-width: 1050px;
     margin: 60px auto;
     padding: 35px;
+    box-sizing: border-box;
 
-    background-color: rgba(255,248,250, 0.93);
+    background-color: rgba(255, 248, 250, 0.93);
     border-radius: 25px;
 
     box-shadow: 0 5px 18px rgba(120, 60, 80, 0.15);
 }
-#about h2{
+
+/* ABOUT HEADING */
+
+#about h2 {
     font-family: Georgia, serif;
     font-size: 32px;
-    color:#884b61;
-    margin-bottom:25px;
+    color: #884b61;
+    margin: 0 0 25px;
 }
-.about-grid{
-    display:grid;
+
+/* TWO-COLUMN GRID */
+
+.about-grid {
+    display: grid;
     grid-template-columns: 1.3fr 1fr;
-    gap:20px;
+    gap: 20px;
+}
+
+/* LARGE MY STORY CARD */
+
+.about-story {
+    background-color: #f7dbe4;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+/* RIGHT-SIDE CARDS */
+
+.about-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* EDUCATION AND GRADUATION CARDS */
+
+.about-small-card {
+    background-color: #f7dbe4;
+    padding: 25px;
+    border-radius: 20px;
+    flex: 1;
+}
+
+/* CARD HEADINGS */
+
+.about-story h3,
+.about-small-card h3 {
+    font-family: Georgia, serif;
+    font-size: 22px;
+    color: #884b61;
+    margin: 0 0 15px;
+}
+
+/* CARD PARAGRAPHS */
+
+.about-story p,
+.about-small-card p {
+    font-size: 15px;
+    color: #5c4550;
+    line-height: 1.7;
+    margin: 0 0 15px;
+}
+
+/* REMOVE EXTRA SPACE UNDER LAST PARAGRAPHS */
+
+.about-story p:last-child,
+.about-small-card p:last-child {
+    margin-bottom: 0;
 }
 
 
