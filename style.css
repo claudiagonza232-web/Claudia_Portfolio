@@ -632,6 +632,32 @@ nav a{
 .about-grid{
     grid-template-columns: 1fr;
 }
+#achievements{
+    width:92%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.achievements-grid{
+    grid-template-columns: 1fr;
+    gap:15px;
+}
+.about-details{
+    gap: 15px;
+}
+.achievement-track,
+.achievement-small-card{
+    min-width: 0;
+    padding: 18px;
+}
+ .achievement-small-card {
+        transform: none;
+    }
+
+    .photo-frame img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
 }
 
 @media screen and (min-width: 601px) and (max-width: 900px) {
