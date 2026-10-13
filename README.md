@@ -99,3 +99,12 @@ The Users will receive feedback based on the button they pressed. For example wh
 
 ### 5. How does interactivity improve the user experience?
 Interactivity will make the webpage easier to navigate. The navigation element will allow visitors to quickly find the information they are interested in reading as well.
+
+## WireFrame
+I drew out a sketch in Good Notes to show how i wanted my design and layout to be.
+
+### Page 1
+![Wireframe Page 1](images/wireframe-part1.jpg)
+
+### Page 2
+![Wireframe Page 2](images/wireframe-part2.jpg)
