@@ -111,7 +111,7 @@ The Users will receive feedback based on the button they pressed. For example wh
 Interactivity will make the webpage easier to navigate. The navigation element will allow visitors to quickly find the information they are interested in reading as well.
 
 ## WireFrame
-I drew out a sketch in Good Notes to show how i wanted my design and layout to be.
+I drew out a sketch in Good Notes to show how I wanted my design and layout to be.
 
 ### Page 1
 ![Wireframe Page 1](images/wireframe-part1.jpg)
@@ -121,3 +121,17 @@ I drew out a sketch in Good Notes to show how i wanted my design and layout to b
 
 ## Technical Overview
 I used HTML to create the structure of my porfolio website. Then i added CSS to design the colors, font, cards, layouts, and pictures. JavaScript was used to make the carousel work by having it switch slides at a click. This website was devoloped using Visual Studio Code which I had to push into Github with commits and later on publish my portfolio using GitHub Pages.
+
+## External Resources
+The following Resources helped me created my porfolio website.
+- Visual Studio Code: https://code.visualstudio.com/
+- GitHub: https://github.com/
+- Github Pages: https://pages.github.com/
+- Goodnotes: https://www.goodnotes.com/
+- Snoopy Images: https://dk.pinterest.com/pin/4222193395778561/ 
+- Tranparency edited used ChatGpt
+- - Bootstrap Carousel: https://getbootstrap.com/docs/5.3/components/carousel/
+  - Used as a reference for the Projects carousel design.
+-  CSS Colors: https://www.w3schools.com/css/css_colors.asp
+- CSS Pink Color Palette: https://htmlcolorcodes.com/colors/shades-of-pink/
+- CSS Flexbox Tutorial (Kevin Powell): https://www.youtube.com/watch?v=u044iM9xsWU 
