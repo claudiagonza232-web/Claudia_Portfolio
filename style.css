@@ -624,24 +624,18 @@ nav ul {
 nav a{
     font-size: 13px;
 }
-#about{
-    width: 92%;
-    padding:20px;
-    box-sizing: border-box;
-}
-.about-grid{
-    grid-template-columns: 1fr;
-}
+#about,
 #achievements{
     width:92%;
     padding: 20px;
     box-sizing: border-box;
 }
+.about-grid,
 .achievements-grid{
     grid-template-columns: 1fr;
     gap:15px;
 }
-.about-details{
+.achievement-details{
     gap: 15px;
 }
 .achievement-track,
