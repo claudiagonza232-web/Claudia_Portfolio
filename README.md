@@ -118,3 +118,6 @@ I drew out a sketch in Good Notes to show how i wanted my design and layout to b
 
 ### Page 2
 ![Wireframe Page 2](images/wireframe-part2.jpg)
+
+## Technical Overview
+I used HTML to create the structure of my porfolio website. Then i added CSS to design the colors, font, cards, layouts, and pictures. JavaScript was used to make the carousel work by having it switch slides at a click. This website was devoloped using Visual Studio Code which I had to push into Github with commits and later on publish my portfolio using GitHub Pages.
