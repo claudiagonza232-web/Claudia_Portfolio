@@ -130,8 +130,7 @@ The following Resources helped me created my porfolio website.
 - Goodnotes: https://www.goodnotes.com/
 - Snoopy Images: https://dk.pinterest.com/pin/4222193395778561/ 
 - Tranparency edited used ChatGpt
-- - Bootstrap Carousel: https://getbootstrap.com/docs/5.3/components/carousel/
-  - Used as a reference for the Projects carousel design.
+- Bootstrap Carousel: https://getbootstrap.com/docs/5.3/components/carousel/
 -  CSS Colors: https://www.w3schools.com/css/css_colors.asp
 - CSS Pink Color Palette: https://htmlcolorcodes.com/colors/shades-of-pink/
 - CSS Flexbox Tutorial (Kevin Powell): https://www.youtube.com/watch?v=u044iM9xsWU 
