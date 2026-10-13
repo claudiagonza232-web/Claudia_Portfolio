@@ -3,6 +3,16 @@
 ## Overview
 This is my personal portfolio that showcases my background, college projects, achievements, and experiences as a Computer Programming and Information System student.
 
+## Timeline / Project Milestones
+1. Planning- I will answer all 30 questions to figure out what I want to do. As well as include the information i have to add.
+2. Design - I will Choose colors, fonts, and layout.
+3. HTML - Created the sections of my website.
+4. CSS - Added styling snd made my website resposive.
+5. JavaScript - Created the Projevt carousel.
+6. Testing - Tested my website using Github Pages.
+7. Deployment - Published my website using Github Pages.
+8. Documentation - Completed my README and wireframe.
+
 ## Part 1: Content
 
 ### 1. What is your full name as you want it displayed professionally?
