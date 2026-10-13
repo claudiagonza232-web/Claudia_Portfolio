@@ -1,9 +1,10 @@
+/* General website styles */
    body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f8b6c5;
 }
-
+/* Header and navigation bar */
 header {
     background-color: #fff0f3;
     padding: 15px 30px;
@@ -43,7 +44,7 @@ nav a{
 nav a:hover{
     color: #e0789a;
 }
-
+/* Home section styling */
 #home {
 width: 80%;
 max-width: 1100px;
@@ -264,6 +265,7 @@ padding: 50px 40px;
     margin-bottom: 0;
 }
 
+/*project section*/
 #projects {
     width: 80%;
     max-width: 900px;
@@ -387,7 +389,7 @@ padding: 50px 40px;
 }
 
 
-/* ==== ACHIEVEMENTS - PINK SCRAPBOOK ==== */
+/* ACHIEVEMENTS - PINK SCRAPBOOK */
 
 #achievements {
     width: 85%;
@@ -503,7 +505,7 @@ padding: 50px 40px;
 }
 
 
-/* == CONTACT - PINK CONTACT CARD === */
+/* CONTACT - PINK CONTACT CARD */
 
 #contact {
     width: 80%;
@@ -607,6 +609,7 @@ padding: 50px 40px;
 
 @media screen and (max-width: 600px) {
 
+/* Floating snoopy decoration */
     .floating-snoopy {
         width: 90px;
         right: 5px;
